@@ -17,16 +17,16 @@ function verificar(){
         
         if (idade >= 0 && idade < 10){
           //Criança
-          img.src = "imagens/homemc.jpg"
+          img.src = "imagens/dwightC.jpeg"
         } else if(idade < 21){
           //Jovem
-          img.src = "imagens/homemj.jpg"
+          img.src = "imagens/jimJ.jpeg"
         } else if( idade < 50){
         //Adulto
         img.src = "imagens/homemd.jpg"
         } else {
           //idoso
-          img.src= "imagens/homemv.jpg"
+          img.src= "imagens/creedV.jpeg"
         }
       }
        if (fsex[1].checked){
@@ -37,13 +37,13 @@ function verificar(){
           img.src= 'imagens/mulherc.jpg'
         } else if(idade < 21){
           //Jovem
-          img.src= "imagens/mulherj.jpg"
+          img.src= "imagens/pamJ.jpeg"
         } else if( idade < 50){
         //Adulto
-        img.src= "imagens/mulherd.jpg"
+        img.src= "imagens/mulherd.jpeg"
         } else {
           //idoso
-          img.src= "imagens/mulherv.jpg"
+          img.src= "imagens/meredithV.jpeg"
         }
        } 
       res.innerHTML = `Registrado um(a) ${genero} com ${idade} anos de idade`
